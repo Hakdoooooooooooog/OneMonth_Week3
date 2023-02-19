@@ -1,0 +1,94 @@
+* {
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 1.25rem;
+  }
+
+h1{
+    font-size: 3.2rem;
+    margin-bottom: 1.25rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+body {
+    background-image: url("../images/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+aside.right{
+    float: left;
+    margin-right: 1.25rem;
+}
+
+aside.center{
+    text-align: center;
+}
+
+#border{
+    border: 0.2rem solid #000000;
+    border-radius: 0.625rem;
+}
+
+/* container */
+
+.container {
+    width: 37.5rem;
+    margin: 6.25rem auto; 
+}
+
+.container section:nth-child(odd) {
+    background: rgba(6, 96, 214, 0.3);
+    color: white;
+}
+
+.container section:nth-child(even) {
+    background: rgba(12, 2, 163, 0.5);
+    color: white;
+}
+
+/* Section Intro */
+
+section.intro {
+    padding: 1.25rem;
+    border-radius: 0.625rem 0.625rem 0 0;
+    text-align: justify;
+}
+
+/* Section Iconic Songs */
+
+section.iconic-song {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+/* Section Fav Songs*/
+
+section.fav-song {
+    text-align: justify;
+    padding: 1.25rem;
+}
+
+/* Section Footer */
+
+section.footer {
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 0 0 0.625rem 0.625rem;
+}
